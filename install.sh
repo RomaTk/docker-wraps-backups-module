@@ -17,5 +17,8 @@ function main() {
     ln -sf "../../$current_dir/env-scripts/not-by-wrap-name/backups" "../../env-scripts/not-by-wrap-name/backups"
     [ $? -ne 0 ] && exit 1
 
+    ln -sf "../../$current_dir/env-scripts/not-by-wrap-name/saving-image-file" "../../env-scripts/not-by-wrap-name/saving-image-file"
+    [ $? -ne 0 ] && exit 1
+
     exit 0
 }
